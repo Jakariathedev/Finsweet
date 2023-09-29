@@ -576,9 +576,117 @@ nav{
  /*=========== FAQ Part End Here   ===========*/
 
 
+ /*=========== Inqury Part Start Here ==========*/
+#inqury{
+    padding: 0 ;
+}
+.inqury_wrapper{
+    display: flex;
+}
+.inqury_img{
+    width: 656px;
+    height: 691px;
+    overflow: hidden;
+    position: relative;
+}
+.inqury_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.inqury_img .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(28, 30, 83, 0.5);
+    padding: 96px 131px 261px 96px;
+}
+.overlay .section_heading{
+    color: var(--white);
+}
+.overlay p{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    margin-top: 24px;
+    width: 464px;
+}
+.inqury_from{
+    width: 624px;
+    height: 691px;
+    background: var(--primary);
+    padding: 96px 96px 48px 96px;
+}
+.inqury_from h3{
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 48px;
+}
+.inqury_from p{
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    margin: 16px 0 40px 0;
+}
+.inqury_from form input{
+    height: 64px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background: transparent;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 18px 32px;
+    color:  #F4F6FC;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.5;
+    line-height: 28px;
+}
+.inqury_from button{
+    height: 64px;
+    width: 100%;
+    border: none;
+    background: var(--yellow);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    color: #1B1C2B;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px;
+    margin-top: 23px;
+    cursor: pointer;
 
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
+}
+.inqury_from a{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 28px;
+    text-align: center;
+    display: block;
+}
+.inqury_from a i{
+ margin-left: 16px;
+}
+ /*=========== Inqury Part End Here   ===========*/
+
+
+
+
  /*=========== Navbar Part Start Here ==========*/
  /*=========== Navbar Part End Here   ===========*/
  /*=========== Navbar Part Start Here ==========*/
