@@ -684,34 +684,175 @@ nav{
 }
  /*=========== Inqury Part End Here   ===========*/
 
+ /*=========== Blog Part Start Here ==========*/
+ #blog{
+    padding: 128px 0;
+ }
+ .blog_wrapper{
+    margin-top: 64px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+ }
+ .blog_itemm{
+    width: 405px;
+    color: var(--darkblue);
+    font-family: 'Poppins', sans-serif;
+ }
+ .blog_img{
+    width: 405px;
+    height: 285px;
+    overflow: hidden;
+ }
+ .blog_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .blog_itemm h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+    margin: 40px 0 16px 0;
+ }
+ .blog_itemm h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 40px 0 16px 0;
+ }
+ .blog_itemm p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    margin: 16px 0 32px 0;
+ }
+ .blog_itemm a{
+    color: var(--darkblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+ }
+ .blog_itemm a i{
+    margin-left: 14px;
+    vertical-align: middle;
+ }
+ /*=========== Blog Part End Here   ===========*/
 
 
 
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
- /*=========== Navbar Part Start Here ==========*/
- /*=========== Navbar Part End Here   ===========*/
+ /*=========== Footer Part Start Here ==========*/
+footer{
+    padding: 96px 0 0 0;
+    background: var(--primary);
+}
+.footer_wrapper{
+    display: flex;
+}
+.footer_txt{
+    width: 50%;
+}
+.footer_txt p{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    opacity: 0.8;
+    width: 399px;
+    margin-top: 22px;
+}
+.footer_content{
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
+.footer_content h3{
+     font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.footer_content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+    margin: 16px 0 28px 0;
+    width: 399px;
+}
+.footer_icon{
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer_contract{
+    width: 517px;
+    background: var(--yellow);
+    font-family: 'Poppins', sans-serif;
+    color: var(--darkblue);
+    padding: 17px 137px 16px 37px;
+    display: flex;
+    column-gap: 29px;
+}
+.footer_contract .email h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.footer_contract .email p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 1px;
+    opacity: 0.8;
+}
+.footer_contract .call h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.footer_contract .call p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 1px;
+    opacity: 0.8;
+}
+ /*=========== Footer Part End Here   ===========*/
+
+
+ /*=========== Last Part Start Here ==========*/
+ #last{
+    background: var(--white);
+    padding: 32px 0;
+ }
+ .last_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--darkblue);
+ }
+ .copyright p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+ }
+ .last_manu ul{
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+ }
+ .last_manu ul li a{
+    color: var(--darkblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+ }
+ /*=========== Last Part End Here   ===========*/
+ 
